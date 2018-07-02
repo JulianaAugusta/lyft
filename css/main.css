@@ -1,3 +1,22 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
